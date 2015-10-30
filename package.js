@@ -13,7 +13,7 @@ Package.onUse(function (api) {
     api.use('ethereum:web3', 'server');
 
     api.addFiles('eth-events.js', 'server');
-    api.export('web3', 'server');
+    api.export('EthEvents', 'server');
 });
 
 Package.onTest(function (api) {
